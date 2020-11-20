@@ -1,0 +1,20 @@
+.card{
+   margin-bottom: 15px;
+   border-radius: 10px;
+   text-align: center;
+}
+#projects a{
+    margin-right: 5px;
+}
+/* .bttn{
+    animation-name: button-animation 2s infinite;
+}
+@keyframes button-animation{
+    from{
+transform: translateX(1);
+background-color: red;
+    }
+    to{
+        transform: translateX(2);
+        background-color: saddlebrown;
+    } */

@@ -1,0 +1,37 @@
+<header class="bg-dark text-primary py-5 display-4 text-center font-weight-bold">
+All Projects
+</header>
+<main>
+    <div class="text-center py-3 text-capitalize">
+        <label for="skills" class="bg-light mx-2">Filter projects</label>
+          <select name="skills" class="bg-light rounded" (change)="handleFilter($event)">
+          <option *ngFor="let item of option">{{item}}</option>
+         </select>
+      </div>
+ <section id="projects" class="py-3 text-center">
+     <div class="container">
+         <div class="row">
+             <div class="col-md-4" *ngFor="let item of data">
+                <div class="card shadow p-3 mb-5" style="width: 18rem;">
+                    <!-- <img class="card-img-top" src="#" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-secondary btn-outline-secondary bg-light">{{item}}</a>
+                      <a href="#" class="btn btn-primary">Go</a>
+                    </div>
+                  </div>
+             </div>
+         </div>
+     </div>
+
+
+
+
+
+</section>
+
+   <div class="d-flex justify-content-center mb-3">
+    <button class="btn btn-lg btn-outline-danger text-uppercase text-center animated pulse" routerLink="/home"><i class="fas fa-chevron-left mr-2"></i>Back to home </button>  
+   </div>   
+</main>

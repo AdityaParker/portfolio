@@ -1,0 +1,19 @@
+.underline{
+    width: 20%;
+    height: 5px;
+   
+   
+}
+.card{
+    border-radius: 10px;
+    text-align: center;
+}
+/* .footer {
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: coral;
+    color: white;
+    text-align: center;
+ } */
